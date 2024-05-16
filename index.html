@@ -16,19 +16,18 @@
             <input type="text" id="branch" placeholder="Enter Branch">
             <br>
             <button onclick="insert()">Add</button>
-            <button onclick="update()">Update</button>
-            <button onclick="remove()">Delete</button>
-            <!-- <button onclick="display()">Display</button> -->
         </center>
     </div>
-    <table id="res">
+    <table cellspacing="10px">
         <thead>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
                 <th>Branch</th>
+                <th colspan="2">Options</th>
             </tr>
         </thead>
+        <tbody id="res"></tbody>
     </table>
     <script src="script.js"></script>
 </body>
